@@ -17,6 +17,19 @@ Options:
    -h          Print help message
 ```
 
+To compile and run code:
+```
+> make
+> ./bminor -codegen program.bminor program.s
+> gcc -g myprogram.s library.c -o myprogram
+> ./myprogram
+```
+
+Or use script in bin:
+```
+> ./bin/bmake.sh file.bminor
+```
+
 There are still some improvments to be made:
 - fix small issues from class
 - more error messages
