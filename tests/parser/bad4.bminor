@@ -1,0 +1,7 @@
+// for loop with too many args
+main:function void()=
+{
+	for(i=0; i++; i<10; i) {
+		print i;
+	}
+}

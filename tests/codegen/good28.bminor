@@ -1,0 +1,11 @@
+// tern
+main:function integer () = {
+    a:boolean = true;
+    i:integer = 10;
+    j:integer = 20;
+
+    test:integer = j>10 && a ? 100 : 200;
+
+    print test, "\n";
+    return 0;
+}

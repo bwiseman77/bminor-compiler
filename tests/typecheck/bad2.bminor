@@ -1,0 +1,8 @@
+// multi return type with auto
+main: function auto () = {
+    b:boolean;
+    if(b||false) {
+        return 10;
+    } else
+        return;
+}

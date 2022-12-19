@@ -1,0 +1,9 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+ SINGLE_LINE_COMMENT  // basic data types
+          SCAN ERROR  "
+               IDENT  the
+               IDENT  quote
+               IDENT  is
+               IDENT  unmatched

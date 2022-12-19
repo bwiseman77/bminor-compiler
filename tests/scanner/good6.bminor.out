@@ -1,0 +1,55 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+ SINGLE_LINE_COMMENT  // strings
+               ARRAY  array
+                AUTO  auto
+             BOOLEAN  boolean
+                CHAR  char
+                ELSE  else
+               FALSE  false
+                 FOR  for
+            FUNCTION  function
+                  IF  if
+             INTEGER  integer
+               PRINT  print
+              RETURN  return
+              STRING  string
+                TRUE  true
+                VOID  void
+               WHILE  while
+ SINGLE_LINE_COMMENT  // doube // comment
+             DIVISON  /
+      MULTIPLICATION  *
+               IDENT  this
+               IDENT  doesnt
+               IDENT  fail
+               IDENT  but
+               IDENT  I
+               IDENT  think
+               IDENT  it
+               IDENT  should
+               COLON  :
+       RIGHT_PARENTH  )
+                 FOR  for
+        LEFT_PARENTH  (
+             INTEGER  integer
+               IDENT  x
+              ASSIGN  =
+     INTEGER_LITERAL  0
+           SEMICOLON  ;
+               IDENT  i
+                  LT  <
+     INTEGER_LITERAL  10
+           SEMICOLON  ;
+               IDENT  i
+           INCREMENT  ++
+       RIGHT_PARENTH  )
+        LEFT_BRACKET  {
+               PRINT  print
+        LEFT_PARENTH  (
+      STRING_LITERAL  hello world
+
+       RIGHT_PARENTH  )
+           SEMICOLON  ;
+       RIGHT_BRACKET  }

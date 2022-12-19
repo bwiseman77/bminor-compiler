@@ -1,0 +1,7 @@
+// unmatched {} on if else
+main: function void() = {
+    if (x) {
+        return x;
+    } else
+        return y;
+}

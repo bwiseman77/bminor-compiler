@@ -1,0 +1,4 @@
+// decls = function call
+main:function function void () (x:integer) = {
+    print x;
+}

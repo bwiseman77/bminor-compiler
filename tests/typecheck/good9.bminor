@@ -1,0 +1,6 @@
+// assigning function auto type
+main: function auto () = {
+    x:integer;
+    x = 10 * 9 + 1;
+    return x;
+}

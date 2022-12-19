@@ -1,0 +1,8 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+  MULTI_LINE_COMMENT  
+          SCAN ERROR  "
+               IDENT  invalid
+              STRING  string
+          SCAN ERROR  "

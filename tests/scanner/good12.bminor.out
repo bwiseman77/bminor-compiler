@@ -1,0 +1,32 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+ SINGLE_LINE_COMMENT  // basic data types
+               IDENT  number
+               COLON  :
+             INTEGER  integer
+           SEMICOLON  ;
+               IDENT  number
+              ASSIGN  =
+     INTEGER_LITERAL  56
+           SEMICOLON  ;
+               IDENT  number
+              ASSIGN  =
+     INTEGER_LITERAL  -56
+           SEMICOLON  ;
+               IDENT  number
+              ASSIGN  =
+     INTEGER_LITERAL  +56
+           SEMICOLON  ;
+               IDENT  number
+              ASSIGN  =
+     INTEGER_LITERAL  0005006
+           SEMICOLON  ;
+               IDENT  number
+              ASSIGN  =
+     INTEGER_LITERAL  +0005006
+           SEMICOLON  ;
+               IDENT  number
+              ASSIGN  =
+     INTEGER_LITERAL  -000050006
+           SEMICOLON  ;

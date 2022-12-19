@@ -1,0 +1,13 @@
+//else if
+func: function void () = {
+    if (x) {
+        print x;
+    } else if (y) {
+        print y;
+    } else if (z) {
+        print z;
+    } else {
+        print;
+    }
+}
+        

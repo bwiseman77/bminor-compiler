@@ -1,0 +1,6 @@
+// func == instead of =
+x:integer = 5;
+
+main:function void() == {
+	x++;
+}

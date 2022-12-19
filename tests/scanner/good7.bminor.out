@@ -1,0 +1,82 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+               IDENT  x
+               COLON  :
+             INTEGER  integer
+              ASSIGN  =
+     INTEGER_LITERAL  65
+           SEMICOLON  ;
+               IDENT  y
+               COLON  :
+                CHAR  char
+              ASSIGN  =
+        CHAR_LITERAL  A
+           SEMICOLON  ;
+                  IF  if
+        LEFT_PARENTH  (
+               IDENT  x
+                  GT  >
+               IDENT  y
+       RIGHT_PARENTH  )
+ SINGLE_LINE_COMMENT  // error: x and y are of different types!
+               IDENT  f
+               COLON  :
+             INTEGER  integer
+              ASSIGN  =
+     INTEGER_LITERAL  0
+           SEMICOLON  ;
+                  IF  if
+        LEFT_PARENTH  (
+               IDENT  f
+       RIGHT_PARENTH  )
+ SINGLE_LINE_COMMENT  // error: f is not a boolean!
+               IDENT  writechar
+               COLON  :
+            FUNCTION  function
+                VOID  void
+        LEFT_PARENTH  (
+                CHAR  char
+               IDENT  c
+       RIGHT_PARENTH  )
+           SEMICOLON  ;
+               IDENT  a
+               COLON  :
+             INTEGER  integer
+              ASSIGN  =
+     INTEGER_LITERAL  65
+           SEMICOLON  ;
+               IDENT  writechar
+        LEFT_PARENTH  (
+               IDENT  a
+       RIGHT_PARENTH  )
+           SEMICOLON  ;
+ SINGLE_LINE_COMMENT  // error: a is not a char!
+               IDENT  b
+               COLON  :
+               ARRAY  array
+ LEFT_SQUARE_BRACKET  [
+     INTEGER_LITERAL  2
+RIGHT_SQUARE_BRACKET  ]
+             BOOLEAN  boolean
+              ASSIGN  =
+        LEFT_BRACKET  {
+                TRUE  true
+               COMMA  ,
+               FALSE  false
+       RIGHT_BRACKET  }
+           SEMICOLON  ;
+               IDENT  x
+               COLON  :
+             INTEGER  integer
+              ASSIGN  =
+     INTEGER_LITERAL  0
+           SEMICOLON  ;
+               IDENT  x
+              ASSIGN  =
+               IDENT  b
+ LEFT_SQUARE_BRACKET  [
+     INTEGER_LITERAL  0
+RIGHT_SQUARE_BRACKET  ]
+           SEMICOLON  ;
+ SINGLE_LINE_COMMENT  // error: x is not a boolean!

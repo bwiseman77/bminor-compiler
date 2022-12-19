@@ -1,0 +1,6 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+  MULTI_LINE_COMMENT  
+ SINGLE_LINE_COMMENT  // this should all be ok!
+  MULTI_LINE_COMMENT  

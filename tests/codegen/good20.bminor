@@ -1,0 +1,15 @@
+// bunch of decls
+x:integer = 10;
+x2:integer;
+b:boolean = false;
+b2:boolean;
+c:char = 'c';
+c2:char;
+s:string = "hello";
+s2:string;
+f:function integer ();
+a:array [5] integer = {1,2,3,4,5};
+a2:array [5] integer;
+main: function integer () = {
+    return 0;
+}

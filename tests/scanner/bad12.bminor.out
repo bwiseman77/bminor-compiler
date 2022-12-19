@@ -1,0 +1,11 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+ SINGLE_LINE_COMMENT  // unmatched comment throws error 
+             DIVISON  /
+      MULTIPLICATION  *
+               IDENT  This
+               IDENT  is
+               IDENT  a
+               IDENT  comment
+          SCAN ERROR  .

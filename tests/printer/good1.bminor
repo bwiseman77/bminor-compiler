@@ -1,0 +1,13 @@
+//else ifs for printing
+func: function string (x:string) = {
+    if (x) {
+        print x;
+    } else if (y) {
+        print y;
+    } else if (z) {
+        print z;
+    } else {
+        print;
+    }
+}
+        

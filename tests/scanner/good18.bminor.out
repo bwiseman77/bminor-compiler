@@ -1,0 +1,85 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+ SINGLE_LINE_COMMENT  //test arrays
+               IDENT  f
+               COLON  :
+               ARRAY  array
+ LEFT_SQUARE_BRACKET  [
+     INTEGER_LITERAL  5
+RIGHT_SQUARE_BRACKET  ]
+             INTEGER  integer
+              ASSIGN  =
+        LEFT_BRACKET  {
+     INTEGER_LITERAL  1
+               COMMA  ,
+     INTEGER_LITERAL  2
+               COMMA  ,
+     INTEGER_LITERAL  3
+               COMMA  ,
+     INTEGER_LITERAL  4
+               COMMA  ,
+     INTEGER_LITERAL  5
+       RIGHT_BRACKET  }
+           SEMICOLON  ;
+               IDENT  f
+               COLON  :
+               ARRAY  array
+ LEFT_SQUARE_BRACKET  [
+     INTEGER_LITERAL  5
+RIGHT_SQUARE_BRACKET  ]
+                CHAR  char
+              ASSIGN  =
+        LEFT_BRACKET  {
+        CHAR_LITERAL  a
+               COMMA  ,
+        CHAR_LITERAL  b
+               COMMA  ,
+        CHAR_LITERAL  c
+               COMMA  ,
+        CHAR_LITERAL  d
+               COMMA  ,
+        CHAR_LITERAL  e
+       RIGHT_BRACKET  }
+           SEMICOLON  ;
+               IDENT  f
+               COLON  :
+               ARRAY  array
+ LEFT_SQUARE_BRACKET  [
+     INTEGER_LITERAL  5
+RIGHT_SQUARE_BRACKET  ]
+             BOOLEAN  boolean
+              ASSIGN  =
+        LEFT_BRACKET  {
+               FALSE  false
+               COMMA  ,
+               FALSE  false
+               COMMA  ,
+                TRUE  true
+               COMMA  ,
+                TRUE  true
+               COMMA  ,
+                TRUE  true
+       RIGHT_BRACKET  }
+           SEMICOLON  ;
+               IDENT  f
+               COLON  :
+               ARRAY  array
+ LEFT_SQUARE_BRACKET  [
+RIGHT_SQUARE_BRACKET  ]
+              STRING  string
+              ASSIGN  =
+        LEFT_BRACKET  {
+      STRING_LITERAL  this
+               COMMA  ,
+      STRING_LITERAL  i
+               COMMA  ,
+      STRING_LITERAL  s
+               COMMA  ,
+      STRING_LITERAL  a,
+               COMMA  ,
+      STRING_LITERAL  test
+               COMMA  ,
+      STRING_LITERAL  .
+       RIGHT_BRACKET  }
+           SEMICOLON  ;

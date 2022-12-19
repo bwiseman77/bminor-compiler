@@ -1,0 +1,5 @@
+x+2
+a: array [5] integer = {1, 2, 3, 4};
+a: auto = 10;
+/* more stuff */
+print "The temperature is: ", temp, " degrees\n";

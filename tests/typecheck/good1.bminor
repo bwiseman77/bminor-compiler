@@ -1,0 +1,30 @@
+// scope plus more intense things
+x: integer;
+s: string;
+b: boolean;
+main: function void (z: integer) = {
+    z=x+2;
+    
+    s="string";
+    b=false;
+    i: integer = 3;
+    i=0;
+    main(z);
+    if (i < 2) {
+        first: integer = 5;
+        second: integer;
+        {
+            third: integer;
+            second + first + third;
+        }
+    t: string;
+    } else {
+        b=false;
+        m: integer;
+    }
+
+    for(i=0;;)
+        print z;
+    
+    return;
+}

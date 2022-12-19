@@ -1,0 +1,12 @@
+// if, while, ternary
+main: function integer (a:integer) = {
+    if(a==1)
+        print a;
+
+    while(false) {
+        a++;
+    }
+    l:boolean;
+    b:integer = l?a++:a--;
+    return a;
+}

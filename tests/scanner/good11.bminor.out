@@ -1,0 +1,57 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+ SINGLE_LINE_COMMENT  // just runs all basic tokens
+ SINGLE_LINE_COMMENT  //
+  MULTI_LINE_COMMENT  
+               ARRAY  array
+             BOOLEAN  boolean
+                CHAR  char
+                ELSE  else
+               FALSE  false
+                 FOR  for
+            FUNCTION  function
+                  IF  if
+             INTEGER  integer
+               PRINT  print
+              RETURN  return
+              STRING  string
+                TRUE  true
+                VOID  void
+               WHILE  while
+               COLON  :
+           SEMICOLON  ;
+               COMMA  ,
+ LEFT_SQUARE_BRACKET  [
+RIGHT_SQUARE_BRACKET  ]
+        LEFT_BRACKET  {
+       RIGHT_BRACKET  }
+        LEFT_PARENTH  (
+       RIGHT_PARENTH  )
+              ASSIGN  =
+            EXPONENT  ^
+                 ADD  +
+                 SUB  -
+           INCREMENT  ++
+           DECREMENT  --
+      MULTIPLICATION  *
+             DIVISON  /
+              MODULO  %
+                  EQ  ==
+                 GTE  >=
+                 LTE  <=
+                  LT  <
+                  GT  >
+              NOT_EQ  !=
+               IDENT  a
+               IDENT  ab
+               IDENT  ab3
+               IDENT  ab3a
+     INTEGER_LITERAL  12314
+     INTEGER_LITERAL  1
+     INTEGER_LITERAL  12
+     INTEGER_LITERAL  123
+        CHAR_LITERAL  A
+      STRING_LITERAL  
+      STRING_LITERAL  a
+      STRING_LITERAL  aa

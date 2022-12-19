@@ -1,0 +1,2 @@
+// sinle expr in block
+fxn: function void () = {x;}

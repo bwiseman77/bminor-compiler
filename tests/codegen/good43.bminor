@@ -1,0 +1,19 @@
+s:string;
+c:char;
+a:array [1] integer = {10};
+main:function integer () = {
+    i:auto = a[0]++;
+    print a[0], i, "\n";
+
+    if (true) {
+        j:integer = 5;
+        print j, "\n";
+        print i, "\n";
+    }
+
+    if (true) {
+    k:integer = 8;
+        print k, "\n";
+        }
+    return 0;
+}

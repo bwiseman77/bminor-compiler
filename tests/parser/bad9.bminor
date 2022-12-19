@@ -1,0 +1,6 @@
+//namespace error
+main:function void(hello:string)=
+{
+	void:integer;
+    void = 1;
+}

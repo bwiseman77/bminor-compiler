@@ -1,0 +1,5 @@
+// resolve error, undefined a
+main: function void () = {
+    i:integer = 10;
+    i = (10/a)+1;
+}

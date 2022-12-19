@@ -1,0 +1,13 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+              RETURN  return
+               IDENT  a
+                 AND  &&
+               IDENT  b
+        TERNARY_PT_1  ?
+                TRUE  true
+               COLON  :
+               FALSE  false
+     INTEGER_LITERAL  +125637
+     INTEGER_LITERAL  -12837

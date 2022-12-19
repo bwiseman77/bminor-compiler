@@ -1,0 +1,28 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+ SINGLE_LINE_COMMENT  // strings
+               IDENT  str
+               COLON  :
+              STRING  string
+              ASSIGN  =
+      STRING_LITERAL  
+           SEMICOLON  ;
+               IDENT  str
+               COLON  :
+              STRING  string
+              ASSIGN  =
+      STRING_LITERAL  hello this is a string!
+           SEMICOLON  ;
+               IDENT  str
+               COLON  :
+              STRING  string
+              ASSIGN  =
+      STRING_LITERAL  hello this is 1 a string!
+           SEMICOLON  ;
+               IDENT  str
+               COLON  :
+              STRING  string
+              ASSIGN  =
+      STRING_LITERAL  11234567891123456789112345678911234567891123456789112345678911234567891123456789112345678911234567891123456789112345678911234567891123456789112345678911234567
+ SINGLE_LINE_COMMENT  // less then 160 characters 

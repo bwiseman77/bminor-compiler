@@ -1,0 +1,63 @@
+// lil bit of everything
+f:function integer (x:integer) = {
+    // param reassign
+    print x, "\n";
+    x = x^2;
+    return x;
+}
+
+// global delcs
+s:string = "global string\n";
+g:integer = 10;
+B:boolean = false;
+C:char = 'G';
+a:array [5] integer = {1,2,3,4,5};
+
+main:function integer () = {
+    //local decls
+    i:integer = 1;
+    c:char = 'c';
+    b:boolean = true;
+    str:string = "local string";
+
+    print "before:", s, " ", B, " ",g, " ", C, " ", i, " ",c, " ", b, " ",str, " ", a[0], "\n";
+
+    // check reassign
+    i++;
+    c = 'c';
+    b = !b;
+    str = "new local";
+    s = "new global";
+    g = -i;
+    g = 5 + g;
+    B = B?false:true;
+    C = '\\';
+    a[0]--;
+
+    print "after:", s, " ", B, " ", g, " ", C, " ", i, " ", c, " ", b, " ", str, " ", a[0], "\n";
+
+    // check opers
+    j:integer = 1+2-3*4/5%6^7;
+    q:boolean = (true||false) && true;
+
+    print q, " ", j, "\n"; 
+
+    // loops and stmts
+    k:integer = 0;
+    for(k = 0; k<4; k++) {
+        if(k%2 == 0) {
+            print "even\n";
+        } else {
+            print "odd\n";
+        }
+    }
+
+    k=0;
+    while(k<10) {
+        k++;
+        print (f(k)+1), "\n";
+    }
+
+    return 0;
+}
+

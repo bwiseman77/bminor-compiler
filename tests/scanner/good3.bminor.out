@@ -1,0 +1,38 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+               IDENT  x
+     INTEGER_LITERAL  +2
+               IDENT  a
+               COLON  :
+               ARRAY  array
+ LEFT_SQUARE_BRACKET  [
+     INTEGER_LITERAL  5
+RIGHT_SQUARE_BRACKET  ]
+             INTEGER  integer
+              ASSIGN  =
+        LEFT_BRACKET  {
+     INTEGER_LITERAL  1
+               COMMA  ,
+     INTEGER_LITERAL  2
+               COMMA  ,
+     INTEGER_LITERAL  3
+               COMMA  ,
+     INTEGER_LITERAL  4
+       RIGHT_BRACKET  }
+           SEMICOLON  ;
+               IDENT  a
+               COLON  :
+                AUTO  auto
+              ASSIGN  =
+     INTEGER_LITERAL  10
+           SEMICOLON  ;
+  MULTI_LINE_COMMENT  
+               PRINT  print
+      STRING_LITERAL  The temperature is: 
+               COMMA  ,
+               IDENT  temp
+               COMMA  ,
+      STRING_LITERAL   degrees
+
+           SEMICOLON  ;

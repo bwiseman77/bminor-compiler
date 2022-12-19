@@ -1,0 +1,7 @@
+// print a while loop
+main: function integer (x:integer) = {
+    while(x < 10) {
+        print x;
+        x++;
+    }
+}

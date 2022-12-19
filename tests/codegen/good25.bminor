@@ -1,0 +1,19 @@
+// some loops
+main:function integer () = {
+    i:integer;
+    for(i=0;i<5;i++) {
+        print i, "\n";
+    }
+
+
+    if(true)
+        print "hi\n";
+
+    j:integer = 5;
+    while(j>=0) {
+        print j, "\n";
+        j--;
+    }
+    
+    return 0;
+}

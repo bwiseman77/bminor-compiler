@@ -1,0 +1,13 @@
+// mismatched function params
+f: function integer (a:integer, s:string) = {
+    return s;
+}
+
+main: function integer (l:integer) = { 
+    x: array [5] integer = {1, 2, 3, 4, 5};
+    b:auto;
+    f('s', x[3]);
+    f(10);
+    f(11, 12, 13);
+    x = b;
+}

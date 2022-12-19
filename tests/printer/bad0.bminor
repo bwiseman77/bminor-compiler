@@ -1,0 +1,2 @@
+// unmatched [] on array decl
+arr: array[5 integer = {1};

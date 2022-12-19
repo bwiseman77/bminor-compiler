@@ -1,0 +1,2 @@
+// decls = function call
+main:integer = func(x);

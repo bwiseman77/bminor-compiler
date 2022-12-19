@@ -1,0 +1,7 @@
+atoi:function integer (s1:string);
+str:string = "10";
+main:function integer () = {
+    i:integer = atoi(str);
+    print i, "\n";
+    return 0;
+}

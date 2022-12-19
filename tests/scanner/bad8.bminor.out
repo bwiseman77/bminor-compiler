@@ -1,0 +1,11 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+             DIVISON  /
+      MULTIPLICATION  *
+          SCAN ERROR  @
+               IDENT  me
+               IDENT  bro
+                 FOR  for
+               IDENT  this
+               IDENT  comment

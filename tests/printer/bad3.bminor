@@ -1,0 +1,4 @@
+// double exponent
+main: function void () = {
+    return x^^2;
+}

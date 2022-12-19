@@ -1,0 +1,10 @@
+// auto param void function type
+a: array [2] auto = {{1, 2}, {1, 2}};
+b: array [2] void;
+c: array [2] function void ();
+main: function void (p: auto) = {
+    
+    a[0][0] = 2;
+    c:array [2] auto;
+    c[0] = 1;
+}

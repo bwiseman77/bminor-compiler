@@ -1,0 +1,16 @@
+a:array [2] array [4] integer;
+b: array [2] array [2] array [4] integer;
+c: array [3] auto = {'a', 'b', 'c'};
+main: function void () = {
+    a = {{1, 2, 3, 4}, {1, 2, 3, 4}};
+    b[0] = a;
+    m: auto = 3;
+    n: auto = 2;
+
+    x: auto = m + n;
+    print x;
+}
+
+// talk to thain: 
+// test good6: I thought only global array initialize??
+// test good8: I thought we should check for mathcing return, and no return implies void??

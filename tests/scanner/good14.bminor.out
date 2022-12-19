@@ -1,0 +1,33 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+ SINGLE_LINE_COMMENT  // basic data types
+               IDENT  character
+               COLON  :
+                CHAR  char
+              ASSIGN  =
+        CHAR_LITERAL  c
+           SEMICOLON  ;
+               IDENT  character
+               COLON  :
+                CHAR  char
+              ASSIGN  =
+        CHAR_LITERAL  
+
+           SEMICOLON  ;
+               IDENT  character
+               COLON  :
+                CHAR  char
+              ASSIGN  =
+        CHAR_LITERAL  
+           SEMICOLON  ;
+               IDENT  character
+              ASSIGN  =
+        CHAR_LITERAL  6
+           SEMICOLON  ;
+               IDENT  character
+              ASSIGN  =
+        CHAR_LITERAL  c
+               IDENT  character
+              ASSIGN  =
+        CHAR_LITERAL  t

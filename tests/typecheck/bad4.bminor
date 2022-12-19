@@ -1,0 +1,14 @@
+// some crazy arrays
+a:array [5] integer = {1, 2, 3, 4};
+b:array ['c'] integer = {1, 2, 3, 4};
+c:array [5] array [5] integer;
+main:function void () = {
+    x:integer = 'c';
+    x = a['c'];
+    x = x[0];
+    x = c[5][0][0];
+    x = a[6][0];
+    m: auto;
+    n:auto = m;
+    bad:array [5] void;
+}

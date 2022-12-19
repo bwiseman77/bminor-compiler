@@ -1,0 +1,14 @@
+// comparisons 
+x:integer = 5;
+y:integer = 10;
+a:boolean = false;
+b:boolean = true;
+main:function void ()=
+{
+	x==y;
+    x!=y;
+    a==b;
+    (x>y)||b;
+    (a==b)&&(a!=b);
+}
+

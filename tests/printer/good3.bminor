@@ -1,0 +1,22 @@
+main: function void () = {
+    a=(z+y)+z;
+    a=z+(y+z);
+    a=(z+y+z);
+    a=z*y+z;
+    a=z*(y+z);
+    a=x+y*z;
+    a=(x+y)*z;
+    a=a%a;
+    for(;;) {
+        a=b;
+    }
+    a?b:(c?a:b);
+    (a?b:c)?a:b;
+    a=(b=c);
+    (a=b)=c;
+    a^b;
+    a^(a+b);
+    a^b^c;
+    a^(b^c);
+    (a^b)^c;
+}

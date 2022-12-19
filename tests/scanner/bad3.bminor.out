@@ -1,0 +1,44 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+               IDENT  int
+               IDENT  main
+        LEFT_PARENTH  (
+       RIGHT_PARENTH  )
+        LEFT_BRACKET  {
+               IDENT  int
+               IDENT  b
+              ASSIGN  =
+     INTEGER_LITERAL  100
+           SEMICOLON  ;
+               IDENT  a
+              ASSIGN  =
+          SCAN ERROR  &
+               IDENT  b
+           SEMICOLON  ;
+                CHAR  char
+      MULTIPLICATION  *
+               IDENT  c
+              ASSIGN  =
+      STRING_LITERAL  "
+           SEMICOLON  ;
+               IDENT  struct
+               IDENT  d
+        LEFT_BRACKET  {
+               IDENT  thing1
+           SEMICOLON  ;
+       RIGHT_BRACKET  }
+          SCAN ERROR  &
+               IDENT  d
+                 SUB  -
+                  GT  >
+               IDENT  thing
+              ASSIGN  =
+          SCAN ERROR  '
+               IDENT  a
+               IDENT  very
+               IDENT  bad
+               IDENT  thing
+          SCAN ERROR  '
+           SEMICOLON  ;
+       RIGHT_BRACKET  }

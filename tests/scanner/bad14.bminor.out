@@ -1,0 +1,8 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+ SINGLE_LINE_COMMENT  // doesn't support floating point
+     INTEGER_LITERAL  50006
+          SCAN ERROR  .
+     INTEGER_LITERAL  0050
+           SEMICOLON  ;

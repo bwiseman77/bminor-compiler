@@ -1,0 +1,7 @@
+// cmp operators
+main: function integer () = {
+    i: integer = 1;
+    j: integer = 0;
+    print i>j, j<i, i==(j+1), j!=i, i>=(j+1), i>=j, j<=i, j<=(i-1), '\n';
+    return 0;
+}

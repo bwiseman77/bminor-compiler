@@ -1,0 +1,15 @@
+int main() {
+    int b = 100;
+    a = &b;
+    char *c = "\";
+    struct d {
+        thing1;
+    }
+
+    &d->thing = 'a very bad thing';
+}
+
+
+
+
+

@@ -1,0 +1,29 @@
+str:string = "hello";
+str2:string = "hello";
+str3:string = "HeLlO";
+main:function integer () = {
+    if(str == str2) {
+        print "yes\n";
+    } else {
+        print "no\n";
+    }
+    
+    if(str == str3) {
+        print "yes\n";
+    } else {
+        print "no\n";
+    }
+    
+    if(str != str2) {
+        print "no\n";
+    } else {
+        print "yes\n";
+    }
+    
+    if(str != str3) {
+        print "no\n";
+    } else {
+        print "yes\n";
+    }
+    return 0;
+}

@@ -1,0 +1,5 @@
+//empty if()
+main:function void () = {
+    if() 
+        print "error";
+}

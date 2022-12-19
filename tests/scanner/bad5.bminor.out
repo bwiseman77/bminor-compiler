@@ -1,0 +1,17 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+          SCAN ERROR  '
+          SCAN ERROR  '
+          SCAN ERROR  '
+      STRING_LITERAL  '
+               IDENT  notepad
+           INCREMENT  ++
+                 ADD  +
+               IDENT  err
+                 SUB  -
+               IDENT  rrr
+                 SUB  -
+               IDENT  _______
+          SCAN ERROR  .
+          SCAN ERROR  .

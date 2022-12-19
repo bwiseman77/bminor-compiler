@@ -1,0 +1,14 @@
+// function prototypes
+f: function integer (i:integer);
+
+f: function integer (i:integer) = {
+    return 10;
+}
+
+main: function void () = {
+    i:integer = 10;
+    b:boolean = true;
+    i=f(i)+(10/2);
+    return;
+}
+

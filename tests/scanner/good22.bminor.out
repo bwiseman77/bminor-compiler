@@ -1,0 +1,45 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+ SINGLE_LINE_COMMENT  //tests the for/print keyword and while keyword
+               IDENT  x
+               COLON  :
+             INTEGER  integer
+           SEMICOLON  ;
+                 FOR  for
+        LEFT_PARENTH  (
+               IDENT  x
+              ASSIGN  =
+     INTEGER_LITERAL  0
+           SEMICOLON  ;
+               IDENT  x
+                  LT  <
+     INTEGER_LITERAL  5
+           SEMICOLON  ;
+               IDENT  x
+           INCREMENT  ++
+       RIGHT_PARENTH  )
+        LEFT_BRACKET  {
+               PRINT  print
+      STRING_LITERAL  counting: 
+               COMMA  ,
+               IDENT  x
+           SEMICOLON  ;
+       RIGHT_BRACKET  }
+               IDENT  a
+               COLON  :
+             INTEGER  integer
+              ASSIGN  =
+     INTEGER_LITERAL  0
+           SEMICOLON  ;
+               WHILE  while
+        LEFT_PARENTH  (
+               IDENT  a
+                  GT  >
+     INTEGER_LITERAL  0
+       RIGHT_PARENTH  )
+        LEFT_BRACKET  {
+               IDENT  a
+           DECREMENT  --
+           SEMICOLON  ;
+       RIGHT_BRACKET  }

@@ -1,0 +1,16 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+      STRING_LITERAL  ~ is okie in side quote
+               IDENT  autointegerarraystring
+               IDENT  x
+           INCREMENT  ++
+               IDENT  y
+              ASSIGN  =
+     INTEGER_LITERAL  2
+     INTEGER_LITERAL  +2
+     INTEGER_LITERAL  -2
+                  IF  if
+        LEFT_PARENTH  (
+       RIGHT_PARENTH  )
+               IDENT  then

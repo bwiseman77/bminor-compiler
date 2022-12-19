@@ -1,0 +1,7 @@
+//array initializer in local;
+main: function integer (l:integer) = { 
+    x: array [5] integer = {1, 2, 3, 4, 5};
+    b:auto;
+    main(b);
+    x = b;
+}

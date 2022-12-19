@@ -1,0 +1,13 @@
+// if else with multiple return points
+strawberry:integer;
+main:function void () = {
+    b:boolean = false;
+
+    if(b) {
+        strawberry++;
+        return;
+    } else {
+        strawberry--;
+        return;
+    }
+}

@@ -1,0 +1,59 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+ SINGLE_LINE_COMMENT  // some more complicated corner cases
+               IDENT  z
+              ASSIGN  =
+                 SUB  -
+        LEFT_PARENTH  (
+     INTEGER_LITERAL  5
+      MULTIPLICATION  *
+     INTEGER_LITERAL  4
+       RIGHT_PARENTH  )
+           SEMICOLON  ;
+               IDENT  z
+              ASSIGN  =
+     INTEGER_LITERAL  15
+                 ADD  +
+     INTEGER_LITERAL  5
+                 SUB  -
+     INTEGER_LITERAL  4
+      MULTIPLICATION  *
+     INTEGER_LITERAL  3
+             DIVISON  /
+     INTEGER_LITERAL  7
+           SEMICOLON  ;
+               IDENT  z
+              ASSIGN  =
+               IDENT  x
+                 ADD  +
+        LEFT_PARENTH  (
+               IDENT  y
+      MULTIPLICATION  *
+     INTEGER_LITERAL  5
+                 SUB  -
+        LEFT_PARENTH  (
+     INTEGER_LITERAL  4
+                 ADD  +
+     INTEGER_LITERAL  20
+             DIVISON  /
+               IDENT  v
+       RIGHT_PARENTH  )
+                 SUB  -
+     INTEGER_LITERAL  15
+       RIGHT_PARENTH  )
+              MODULO  %
+     INTEGER_LITERAL  6
+                 ADD  +
+               IDENT  z
+           SEMICOLON  ;
+ SINGLE_LINE_COMMENT  //long integer expr
+               IDENT  z
+           INCREMENT  ++
+                 ADD  +
+           SEMICOLON  ;
+ SINGLE_LINE_COMMENT  // these will cause parsing errors
+               IDENT  w
+           DECREMENT  --
+                 SUB  -
+           SEMICOLON  ;

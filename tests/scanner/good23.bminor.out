@@ -1,0 +1,14 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+ SINGLE_LINE_COMMENT  //test some odd identifier names
+               IDENT  ident55
+               IDENT  ident55_
+               IDENT  ident__55__
+               IDENT  thisIsAReallyReallyLongIdentifierNameThatHasTonsOfLettersInIt
+              ASSIGN  =
+     INTEGER_LITERAL  7
+               IDENT  variable_names_may_contain_underscores_
+               IDENT  _variables_can_start_with_an_underscore_67
+     INTEGER_LITERAL  7
+               IDENT  minus5

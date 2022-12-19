@@ -1,0 +1,12 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+               IDENT  cash
+          SCAN ERROR  #
+               IDENT  money
+          SCAN ERROR  $
+          SCAN ERROR  '
+          SCAN ERROR  '
+          SCAN ERROR  '
+      STRING_LITERAL  
+          SCAN ERROR  "

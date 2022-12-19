@@ -1,0 +1,7 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+ SINGLE_LINE_COMMENT  // invalid character
+          SCAN ERROR  '
+          SCAN ERROR  \
+          SCAN ERROR  '

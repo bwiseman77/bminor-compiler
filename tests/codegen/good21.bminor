@@ -1,0 +1,5 @@
+// simple main
+main:function integer (i:integer, j:integer) = {
+    l:integer = 1+2;
+    return l;
+}

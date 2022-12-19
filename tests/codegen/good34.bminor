@@ -1,0 +1,8 @@
+// func(func())
+func:function integer (x:integer) = {
+    return x + 10;
+}
+
+main:function integer () = {
+    return func(func(func(1)));
+}

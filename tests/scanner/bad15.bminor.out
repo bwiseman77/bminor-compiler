@@ -1,0 +1,27 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+ SINGLE_LINE_COMMENT  // test comparotors and boolean logic
+                  IF  if
+        LEFT_PARENTH  (
+               IDENT  a
+          SCAN ERROR  |
+               IDENT  b
+       RIGHT_PARENTH  )
+        LEFT_BRACKET  {
+               PRINT  print
+      STRING_LITERAL   a || b is true
+           SEMICOLON  ;
+       RIGHT_BRACKET  }
+                  IF  if
+        LEFT_PARENTH  (
+               IDENT  a
+          SCAN ERROR  &
+               IDENT  b
+       RIGHT_PARENTH  )
+ SINGLE_LINE_COMMENT  // must had 2 &&
+        LEFT_BRACKET  {
+               PRINT  print
+      STRING_LITERAL   a || b is true
+           SEMICOLON  ;
+       RIGHT_BRACKET  }

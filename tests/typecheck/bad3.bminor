@@ -1,0 +1,19 @@
+// bad comparisons
+main: function void () = {
+    x:integer = 10;
+    b:boolean = false;
+
+    x*b;
+    x/b;
+    x+b;
+    x^b;
+    x%b;
+
+    x==b;
+    x!=b;
+
+    x&&b;
+    x||b;
+
+    x+10?b<10:x;
+}

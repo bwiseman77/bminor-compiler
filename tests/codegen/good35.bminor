@@ -1,0 +1,6 @@
+// mega math
+main: function void () = {
+    x:integer;
+    x = (10*10)/10 + 100 - 20 * 1^10 % 2;
+    print x, "\n";
+}

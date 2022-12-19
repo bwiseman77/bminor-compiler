@@ -1,0 +1,10 @@
+// some prints
+s: string = "hello\n";
+main:function integer () = {
+    print s;
+    s = "bye\n";
+    i:integer = 10;
+    print s, i, "\n";
+    print i, "\n";
+    return 0;
+}

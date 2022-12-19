@@ -1,0 +1,22 @@
+// mega if
+main: function void () = {
+    b:boolean = true;
+    print b, !b, "\n";
+    if(b) 
+        if(!b)
+            print "no\n";
+        else
+            if (b)
+                if(b||!b)
+                    print "yes\n";
+                else
+                    print "nope\n";
+            else
+                print "also nope\n";
+    else 
+        print "def not\n";
+}
+
+
+
+

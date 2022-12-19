@@ -1,0 +1,8 @@
+// logic
+main: function void () = {
+    a:boolean = true;
+    b:boolean = false;
+
+    print a&&b, a&&a, a||b, b||b, '\n';
+    return;
+}

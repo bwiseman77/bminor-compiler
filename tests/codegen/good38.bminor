@@ -1,0 +1,25 @@
+// reverse an array
+a:array [5] integer = {1,2,3,4,5};
+s:integer = 5;
+main:function void () = {
+    temp:integer;
+    i:integer = 0;
+
+    print "before:\n";
+    for(i=0; i<s;i++) {
+        print a[i];
+    }
+    print "\n";
+    
+    for(i=0; i<(s/2); i++) {
+        temp = a[i];
+        a[i] = a[s-i-1];
+        a[s-i-1] = temp;
+    }
+
+    print "after:\n";
+    for(i=0; i<s;i++) {
+        print a[i];
+    }
+    print "\n";
+}

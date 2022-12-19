@@ -1,0 +1,7 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+          SCAN ERROR  '
+          SCAN ERROR  \
+               IDENT  ac
+          SCAN ERROR  '

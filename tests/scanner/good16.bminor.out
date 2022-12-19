@@ -1,0 +1,33 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+ SINGLE_LINE_COMMENT  // strings
+               IDENT  str
+               COLON  :
+              STRING  string
+              ASSIGN  =
+      STRING_LITERAL  
+           SEMICOLON  ;
+               IDENT  str
+               COLON  :
+              STRING  string
+              ASSIGN  =
+      STRING_LITERAL  we can write an escaped backslash \
+           SEMICOLON  ;
+      STRING_LITERAL   "this is a unique test case " 
+           SEMICOLON  ;
+      STRING_LITERAL   
+ t 
+      STRING_LITERAL  e r y
+               IDENT  str
+               COLON  :
+              STRING  string
+              ASSIGN  =
+      STRING_LITERAL  single qoute ' or ' 
+           SEMICOLON  ;
+               IDENT  str
+               COLON  :
+              STRING  string
+              ASSIGN  =
+      STRING_LITERAL   double qoute " 
+           SEMICOLON  ;

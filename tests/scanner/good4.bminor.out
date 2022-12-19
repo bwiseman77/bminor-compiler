@@ -1,0 +1,18 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+                VOID  void
+            FUNCTION  function
+        LEFT_PARENTH  (
+       RIGHT_PARENTH  )
+      STRING_LITERAL  gimme gimme a 
+man 
+after midnight
+     INTEGER_LITERAL  5
+        TERNARY_PT_1  ?
+     INTEGER_LITERAL  6
+               COLON  :
+     INTEGER_LITERAL  7
+             DIVISON  /
+      MULTIPLICATION  *
+               IDENT  nnooooooo

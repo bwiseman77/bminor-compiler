@@ -1,0 +1,62 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+  MULTI_LINE_COMMENT  
+               IDENT  z
+              ASSIGN  =
+                 SUB  -
+               IDENT  x
+           SEMICOLON  ;
+ SINGLE_LINE_COMMENT  // unary negation
+               IDENT  x
+            EXPONENT  ^
+     INTEGER_LITERAL  2
+           SEMICOLON  ;
+ SINGLE_LINE_COMMENT  //exponantiotion
+ SINGLE_LINE_COMMENT  //simple test cases
+               IDENT  x
+            EXPONENT  ^
+     INTEGER_LITERAL  2
+               IDENT  z
+              NOT_EQ  !=
+               IDENT  x
+              MODULO  %
+     INTEGER_LITERAL  2
+               IDENT  z
+              ASSIGN  =
+     INTEGER_LITERAL  5
+                 ADD  +
+     INTEGER_LITERAL  6
+           SEMICOLON  ;
+               IDENT  z
+              ASSIGN  =
+     INTEGER_LITERAL  5
+      MULTIPLICATION  *
+     INTEGER_LITERAL  6
+           SEMICOLON  ;
+               IDENT  z
+              ASSIGN  =
+     INTEGER_LITERAL  5
+                 SUB  -
+     INTEGER_LITERAL  6
+           SEMICOLON  ;
+               IDENT  z
+              ASSIGN  =
+     INTEGER_LITERAL  5
+             DIVISON  /
+     INTEGER_LITERAL  6
+           SEMICOLON  ;
+               IDENT  q
+           INCREMENT  ++
+           SEMICOLON  ;
+               IDENT  z
+           DECREMENT  --
+           SEMICOLON  ;
+               IDENT  z
+              ASSIGN  =
+     INTEGER_LITERAL  7
+                 ADD  +
+     INTEGER_LITERAL  7
+                 SUB  -
+               IDENT  z
+           SEMICOLON  ;

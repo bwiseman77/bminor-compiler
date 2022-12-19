@@ -1,0 +1,14 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+          SCAN ERROR  ~
+          SCAN ERROR  `
+          SCAN ERROR  |
+          SCAN ERROR  \
+          SCAN ERROR  #
+               IDENT  include
+                  LT  <
+               IDENT  stdio
+          SCAN ERROR  .
+               IDENT  h
+                  GT  >

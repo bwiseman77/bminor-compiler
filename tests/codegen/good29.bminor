@@ -1,0 +1,10 @@
+// fucntion that prints char
+f:function void (c:char) = {
+    print c, '\n';
+}
+
+main: function integer () = {
+    c:char = 'c';
+    f(c);
+    return 0;
+}

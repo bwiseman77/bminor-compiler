@@ -1,0 +1,19 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+      STRING_LITERAL  this is a fancy 'string' :)
+      STRING_LITERAL   wow this is so
+much
+FUN right mia
+             INTEGER  integer
+               IDENT  a
+               COLON  :
+               IDENT  fing
+           SEMICOLON  ;
+        CHAR_LITERAL  q
+           SEMICOLON  ;
+        CHAR_LITERAL  a
+           SEMICOLON  ;
+        CHAR_LITERAL  
+        CHAR_LITERAL  
+

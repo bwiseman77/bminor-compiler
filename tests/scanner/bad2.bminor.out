@@ -1,0 +1,9 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+               IDENT  int_
+          SCAN ERROR  $
+               IDENT  BashVariable
+               IDENT  double
+          SCAN ERROR  .
+     INTEGER_LITERAL  0002

@@ -1,0 +1,23 @@
+// some fun standard library fun stuff
+fd:integer;
+fgets:function integer (s:string, size:integer, file:integer);
+fopen:function integer (path:string, mode:string);
+strcmp:function integer (s1:string, s2:string);
+
+main:function integer () = {
+
+    // try reading with fgets
+    buff:string = "spaceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee";
+    fd:integer = fopen("./tests/codegen/good40.bminor","r");
+    if (fd == 0)
+        return 0;
+    status: integer = fgets(buff, 4096, fd);
+    while(status != 0) {
+        if(buff == "fd:integer;\n")
+            print "yes!\n";
+        print buff;
+        status = fgets(buff, 4096, fd);
+    }
+
+    return 0;
+}

@@ -1,0 +1,22 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+ SINGLE_LINE_COMMENT  //test some boolean types
+               IDENT  bool
+               COLON  :
+             BOOLEAN  boolean
+              ASSIGN  =
+                TRUE  true
+           SEMICOLON  ;
+               IDENT  bool
+               COLON  :
+             BOOLEAN  boolean
+              ASSIGN  =
+               FALSE  false
+           SEMICOLON  ;
+               IDENT  bool
+              ASSIGN  =
+     INTEGER_LITERAL  5
+                  GT  >
+     INTEGER_LITERAL  4
+           SEMICOLON  ;

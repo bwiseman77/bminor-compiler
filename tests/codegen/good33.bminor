@@ -1,0 +1,14 @@
+// print an array
+a:array [5] integer = {1,2,3,4,5};
+size:integer = 5;
+f:function void (s:integer) = {
+    i:integer;
+    for(i=0; i<s; i++) {
+        print a[i];
+    }
+    print "\n";
+}
+main:function integer () = {
+    f(size);
+    return 0;
+}

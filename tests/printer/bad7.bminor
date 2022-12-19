@@ -1,0 +1,9 @@
+// func call with empty arg
+func:function integer (x:integer) = {
+    return x;
+}
+
+main:function void(argc:integer, argv:array[] string) =
+{
+    return func(argc==1,);
+}

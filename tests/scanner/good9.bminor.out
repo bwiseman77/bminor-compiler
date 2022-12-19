@@ -1,0 +1,50 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+               IDENT  printarray
+               COLON  :
+            FUNCTION  function
+                VOID  void
+        LEFT_PARENTH  (
+               IDENT  a
+               COLON  :
+               ARRAY  array
+ LEFT_SQUARE_BRACKET  [
+RIGHT_SQUARE_BRACKET  ]
+             INTEGER  integer
+               COMMA  ,
+               IDENT  size
+               COLON  :
+             INTEGER  integer
+       RIGHT_PARENTH  )
+              ASSIGN  =
+        LEFT_BRACKET  {
+               IDENT  i
+               COLON  :
+             INTEGER  integer
+           SEMICOLON  ;
+                 FOR  for
+        LEFT_PARENTH  (
+               IDENT  i
+              ASSIGN  =
+     INTEGER_LITERAL  0
+           SEMICOLON  ;
+               IDENT  i
+                  LT  <
+               IDENT  size
+           SEMICOLON  ;
+               IDENT  i
+           INCREMENT  ++
+       RIGHT_PARENTH  )
+        LEFT_BRACKET  {
+               PRINT  print
+               IDENT  a
+ LEFT_SQUARE_BRACKET  [
+               IDENT  i
+RIGHT_SQUARE_BRACKET  ]
+               COMMA  ,
+      STRING_LITERAL  
+
+           SEMICOLON  ;
+       RIGHT_BRACKET  }
+       RIGHT_BRACKET  }

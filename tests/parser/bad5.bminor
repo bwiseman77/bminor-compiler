@@ -1,0 +1,7 @@
+//array init not seperated by ,'s
+x:array[4] = {1 2 3 4};
+
+main:function void() = 
+{
+	print arr[0];
+}

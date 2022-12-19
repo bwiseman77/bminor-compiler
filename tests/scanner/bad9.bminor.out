@@ -1,0 +1,15 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+      STRING_LITERAL  '
+                 ADD  +
+        CHAR_LITERAL  @
+              ASSIGN  =
+          SCAN ERROR  ~
+          SCAN ERROR  .
+          SCAN ERROR  ~
+        LEFT_PARENTH  (
+          SCAN ERROR  .
+          SCAN ERROR  .
+          SCAN ERROR  .
+       RIGHT_PARENTH  )

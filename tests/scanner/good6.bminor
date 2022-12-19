@@ -1,0 +1,7 @@
+// strings
+array auto boolean char else false for function if integer print return string true void while
+// doube // comment
+/* this doesnt fail but I think it should :)
+for(integer x = 0; i < 10; i++) {
+    print("hello world\n");
+}

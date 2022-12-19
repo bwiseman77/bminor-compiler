@@ -1,0 +1,7 @@
+// while loop
+main: function integer () = {
+    while(x < 10) {
+        print x;
+        x++;
+    }
+}

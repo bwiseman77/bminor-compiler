@@ -1,0 +1,10 @@
+// reassign string
+s: string = "hello";
+main:function boolean () = {
+    s2: string = "wow!\n";
+    print s, s2;
+    s2 = "now ";
+    s = "bye\n";
+    print s2, s;
+    return true;
+}

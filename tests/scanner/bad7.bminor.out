@@ -1,0 +1,12 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+               IDENT  l3
+          SCAN ERROR  @
+               IDENT  t
+     INTEGER_LITERAL  5
+               IDENT  p3
+          SCAN ERROR  @
+               IDENT  k
+     INTEGER_LITERAL  8
+               IDENT  r0

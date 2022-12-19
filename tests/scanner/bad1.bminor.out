@@ -1,0 +1,19 @@
+-------------------------------------------
+           token type  text
+-------------------------------------------
+             DIVISON  /
+      MULTIPLICATION  *
+          SCAN ERROR  "
+               IDENT  this
+               IDENT  is
+               IDENT  bad
+        TERNARY_PT_1  ?
+          SCAN ERROR  \
+               IDENT  n
+             DIVISON  /
+      MULTIPLICATION  *
+          SCAN ERROR  "
+               IDENT  but
+               IDENT  this
+               IDENT  isnt
+        TERNARY_PT_1  ?

@@ -1,0 +1,9 @@
+// ++'s
+f:function integer (x:integer) = {
+    return x++++;
+}
+
+main: function void() = {
+	x:integer = 5;
+    return f(x)++;
+}

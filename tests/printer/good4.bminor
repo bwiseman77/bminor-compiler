@@ -1,0 +1,16 @@
+// lots of exprs
+main: function void() = {
+    a=b;
+    a+b;
+    a-b;
+    a%b;
+    a^b;
+    a*b;
+    a==b;
+    a<b;
+    a<=b;
+    a>=b;
+    a>b;
+    a[a]%b;
+    a[b]=f(b);
+}

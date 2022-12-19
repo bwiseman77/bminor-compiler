@@ -1,0 +1,6 @@
+// multi-ternary 3 ways
+main: function void () = {
+    x: integer = a ? b : c ? d : e;
+    b = false ? true ? true : false : false;
+    c = false ? false : true ? true : false;
+}
