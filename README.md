@@ -39,7 +39,7 @@ There are still some improvments to be made:
 - constant folding
 - better string functionality 
 
-# Language Overview
+# Bminor Language Overview
 ## Whitespace and Comments
 In B-minor, whitespace is any combination of the following characters: tabs, spaces, linefeed (\n), and carriage return (\r). The placement of whitespace is not significant in B-minor. Both C-style and C++-style comments are valid in B-minor:
 
@@ -201,3 +201,60 @@ main: function integer ( argc: integer, argv: array [] string ) = {
 }
 ```
 
+## Other Questions
+### Scanning
+- Q: Is "" a valid string literal?
+- A: Yes, two double quotes represents an empty string consisting only of the null terminator.
+
+- Q: Is this a valid string literal?
+```
+"hello
+world"
+```
+- A: No, a newline in a string needs to be escaped, like this: "hello\nworld"
+
+- Q: Do we need to handle #include, #define, and so forth?
+- A: No, they are not part of B-minor.
+
+- Q: Can an integer have a leading negative/positive sign?
+- A: A leading positive/negative sign should be treated as a separate token. That is, -123 should parse as MINUS NUMBER
+
+### Parsing
+- Q: Is print; a valid statement?
+- A: Yes, it means to print out nothing.
+
+- Q: Is return; a valid statement?
+- A: Yes, it indicates a return with no value in a void function.
+
+- Q: Does B-minor permit this syntax?
+```
+for(i=0;i<10,j<10;i++) { ... }
+```
+- A: No, commas may only be used in print statements, function calls, function prototypes, and array expressions.
+
+- Q: Can a single statement (without braces) be used after a for-loop or an if-statement?
+- A: Yes, the following are valid statements, just as in C and C++:
+```
+for(i=0;i<10;i++) print i;
+if(a) x=y; else z=w;
+```
+
+- Q: Is a single semicolon a valid statement?
+- A: No.
+
+- Q: Can an array be zero length?
+- A: No - An array must be declared with a positive length.
+
+- Q: Can an array initializer by empty?
+- A: No - An initializer must either match the length of the array, or be omitted. It cannot be empty. (It also avoids the case of an empty initializer {} begin confused with an empty statement block {}.
+
+### Typechecking
+
+- Q: Does B-minor allow arrays of functions, functions that return functions, variables of type function, and things of that sort? 
+- A: No, those should be flagged as type errors, since we won’t be implementing them in the code generation.
+
+- Q: What sort of expression can be used to initialize the length of an array? 
+- A: When an array is declared as a global or local variable, the length must be given as a constant integer. Any more complex expression should result in a type error. When an array is declared as a function parameter, it should have no length given.
+
+- Q: What type should be assumed for a variable or function that cannot be resolved? 
+- A: There is no good assumption that you can make. To avoid this problem, you should stop after the name resolution phase, if any name resolution errors are discovered.
